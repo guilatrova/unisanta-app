@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <include layout="@layout/dp_box" />
+
+    <TextView
+        android:id="@+id/tvSubjectName"
+        android:text="@string/subject_field"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/tvDP"
+        android:layout_toEndOf="@id/tvDP"
+    />
+
+    <TextView
+        android:id="@+id/tvP1Label"
+        android:text="@string/p1_field"
+        android:textStyle="bold"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvSubjectName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+    />
+
+    <TextView
+        android:id="@+id/tvP1"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvP1Label"
+        android:layout_alignLeft="@id/tvP1Label"
+        android:layout_alignStart="@id/tvP1Label"
+        />
+
+    <TextView
+        android:id="@+id/tvP2Label"
+        android:text="@string/p2_field"
+        android:textStyle="bold"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/tvSubjectName"
+        android:layout_toRightOf="@+id/tvP1Label"
+        android:layout_toEndOf="@+id/tvP1Label"
+        android:layout_marginLeft="@dimen/grade_margin"
+        android:layout_marginStart="@dimen/grade_margin"
+        />
+
+    <TextView
+        android:id="@+id/tvP2"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvP2Label"
+        android:layout_alignLeft="@id/tvP2Label"
+        android:layout_alignStart="@id/tvP2Label"
+        />
+
+    <TextView
+        android:id="@+id/tvP3Label"
+        android:text="@string/p3_field"
+        android:textStyle="bold"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/tvSubjectName"
+        android:layout_toRightOf="@id/tvP2Label"
+        android:layout_toEndOf="@id/tvP2Label"
+        android:layout_marginLeft="@dimen/grade_margin"
+        android:layout_marginStart="@dimen/grade_margin"
+        />
+
+    <TextView
+        android:id="@+id/tvP3"
+        android:layout_width="@dimen/short_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvP2Label"
+        android:layout_alignLeft="@id/tvP3Label"
+        android:layout_alignStart="@id/tvP3Label"
+        />
+
+    <TextView
+        android:id="@+id/tvFinalLabel"
+        android:text="@string/final_grade_field"
+        android:textStyle="bold"
+        android:layout_width="@dimen/long_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/grade_margin"
+        android:layout_marginStart="@dimen/grade_margin"
+        android:layout_alignTop="@id/tvP3Label"
+        android:layout_toRightOf="@id/tvP3Label"
+        android:layout_toEndOf="@id/tvP3Label"
+    />
+
+    <TextView
+        android:id="@+id/tvFinal"
+        android:textStyle="bold"
+        android:layout_width="@dimen/long_grade_label_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tvFinalLabel"
+        android:layout_alignLeft="@id/tvFinalLabel"
+        android:layout_alignStart="@id/tvFinalLabel"
+    />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:text="@string/approved"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvP1Label"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

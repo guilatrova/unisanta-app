@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#6F1116</color>
+    <color name="dark_red_bright">#8F464A</color>
+    <color name="light_red">#FFC7CE</color>
+    <color name="red">#D50000</color>
+    <color name="black">#000</color>
+    <color name="light_gray">#CFD8DC</color>
+    <color name="gray">#424242</color>
+    <color name="blue">#4F81BD</color>
+    <color name="green">#388E3C</color>
+    <color name="white">#FFF</color>
+
+    <color name="refresh_progress_1">@color/blue</color>
+    <color name="refresh_progress_2">@color/dark_red</color>
+    <color name="refresh_progress_3">@color/white</color>
+</resources>

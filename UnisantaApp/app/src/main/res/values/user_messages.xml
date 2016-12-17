@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MENSAGENS AO SINCRONIZAR/ATUALIZAR -->
+    <string name="checking_connection_message">Verificando conexão</string>
+    <string name="logging_in_message">Efetuando login</string>
+    <string name="sync_user_message">Atualizando dados do usuário</string>
+    <string name="sync_subject_message">"Atualizando matérias do semestre %1$s"</string>
+    <string name="sync_classes">Atualizando horário de aulas</string>
+    <string name="sync_grades_message">Atualizando notas do semestre %1$s</string>
+    <string name="sync_courseware_message">Atualizando material didático de %1$s</string>
+    <string name="downloading">Baixando %1$s</string>
+    
+    <!-- APP RATER -->
+    <string name="rate_title">Avalie-nos!</string>
+    <string name="rate_message">
+        Está gostando do app? Gostaríamos de pedir alguns segundos do seu tempo para saber o que
+        você está achando, pois isso nos ajuda muito a continuar melhorando.
+        Poderia compartilhar sua opinião conosco?
+    </string>
+    <string name="rate_now">Sim</string>
+    <string name="rate_later">Mais tarde</string>
+    <string name="rate_never">Não</string>
+
+    <!-- EMPTY TEXTVIEWS -->
+    <string name="no_subject_to_choose">Nenhuma disciplina cadastrada para esse semestre</string>
+    <string name="no_courseware_for_this_subject">Esta disciplina não possui nenhum arquivo publicado pelo(a) professor(a)</string>
+
+    <!-- COURSEWARE -->
+    <string name="download_successful">Download finalizado</string>
+    <string name="download_canceled">Download cancelado</string>
+    <string name="download_title">Baixar novamente %1$s</string>
+    <string name="courseware_already_exists">Esse material didático já existe.</string>
+    <string name="replace_courseware">Substituir</string>
+
+    <!-- SNACKBAR ACTIONS -->
+    <string name="open">Abrir</string>
+    <string name="update">Atualizar</string>
+</resources>

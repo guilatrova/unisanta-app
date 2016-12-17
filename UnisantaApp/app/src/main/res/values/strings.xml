@@ -1,0 +1,46 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">UnisantaApp</string>
+    <string name="title_activity_main">Main</string>
+    <string name="ok">OK</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="edit_profile_label">Editar perfil</string>
+    <string name="choose_subject">Escolha a matéria</string>
+    <string name="courseware">Material didático</string>
+    <string name="save">Salvar</string>
+    <string name="student_name">Nome: %1$s</string>
+    <string name="course_name">Curso: %1$s</string>
+    <string name="sync">Atualizar</string>
+    <string name="class_schedule">horário de aulas</string>
+    <string name="courseware_of">"material didático de %1$s"</string>
+    <string name="courseware_full_semester">"material didático do semestre %1$s"</string>
+    <string name="subjects_of_semester">"matérias do semestre %1$s"</string>
+    <string name="tests">horários das provas</string>
+    <string name="pick_semester">Escolha o semestre</string>
+    <string name="share">Compartilhar</string>
+    <string name="page_facebook">Facebook</string>
+    <string name="news_title">"Novidades da versão %1$s"</string>
+
+    <!-- SHARE -->
+    <string name="share_classes_header">Minhas aulas</string>
+    <string name="share_classes_chooser">Compartilhar aulas via</string>
+    <string name="share_signature">Compartilhado pelo UnisantaApp</string>
+    <string name="share_app">Veja essa novidade! É possível consultar horários de aulas, provas e até notas offline! https://play.google.com/store/apps/details?id=si.unisanta.tcc.unisantaapp</string>
+
+    <!-- WIDGET -->
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_drawer_activity_example">DrawerActivityExample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="download_permission_explain_title">Permissão para download</string>
+    <string name="download_permission_explain_message">
+        O aplicativo procura salvar o seu material didático no lugar mais próximo possível para facilitar seu acesso.
+        Porém, é necessário sua permissão para salvar os arquivos em uma pasta, para que você possa acessar como preferir
+        (com um leitor de PDF, por exemplo) e para que até mesmo após a remoção do aplicativo você ainda tenha acesso aos materiais baixados.
+    </string>
+
+</resources>

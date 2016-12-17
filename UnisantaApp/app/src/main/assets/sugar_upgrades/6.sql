@@ -1,0 +1,1 @@
+alter table SUBJECT add column original_id integer;

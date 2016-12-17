@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="si.unisanta.tcc.unisantaapp.application.fragments.classes.ClassesFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/share_action"
+        android:title="@string/share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share" />
+
+</menu>

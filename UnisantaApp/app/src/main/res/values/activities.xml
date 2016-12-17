@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- About Activity -->
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_1_title">Sobre o aplicativo</string>
+    <string name="about_acknowledgment_title">Agradecimentos</string>
+    <string name="team_title">Equipe</string>
+    <string name="user_terms_title">Termos de uso</string>
+    <string name="privacy_policy_title">Política de privacidade</string>
+
+    <!-- Login Activity -->
+    <string name="RA">RA</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="welcome">"Bem vindo, "</string>
+    <string name="welcome_back">"Bem-vindo de volta, %1$s"</string>
+    <string name="unisanta_logo_content_description">logo unisanta</string>
+    <string name="about_app_label">Este aplicativo não possui nenhum vínculo com a instituição. <u>Saiba mais.</u></string>
+
+    <!-- Main Activity -->
+    <string name="no_classes_message">Horário não cadastrado para o semestre corrente &lt;br/>&lt;small>&lt;font color=\"#4F81BD\">&lt;u>Arraste para atualizar&lt;/u>&lt;/font>&lt;/small></string>
+    <string name="no_grades_message">Nenhuma matéria cadastrada para o semestre corrente &lt;br/>&lt;small>&lt;font color=\"#4F81BD\">&lt;u>Arraste para atualizar&lt;/u>&lt;/font>&lt;/small></string>
+    <string name="no_tests_message">Não há provas &lt;br/>&lt;small>&lt;font color=\"#4F81BD\">&lt;u>Arraste para atualizar&lt;/u>&lt;/font>&lt;/small></string>
+    <string name="no_classes_today_message">Nenhuma aula para o dia de hoje</string>
+    <string name="no_tests_today_message">Nenhuma prova para o dia de hoje</string>
+    <string name="clear_student_data_option">Sair</string>
+    <string name="clear_student_data_dialog">Tem certeza que deseja sair? Você terá que sincronizar seus dados novamente</string>
+
+    <!-- CoursewareList Activity -->
+    <string name="download_permission_denied_title">Impossível fazer download</string>
+    <string name="download_permission_denied_message">Não é possível fazer o download, pois você não permitiu que a aplicação salvasse o material didático</string>
+
+    <!-- AULAS FRAGMENT -->
+    <string name="dp">DP</string>
+    <string name="p1_field">P1</string>
+    <string name="p2_field">P2</string>
+    <string name="p3_field">P3</string>
+    <string name="final_grade_field">Média</string>
+    <string name="subject_field">Matéria</string>
+    <string name="approved">APROVADO</string>
+    <string name="disapproved">REPROVADO</string>
+
+    <!-- TÍTULOS DAS TABS NA MAIN ACTIVITY -->
+    <string name="classes_tab_main">AULAS</string>
+    <string name="tests_tab_main">PROVAS</string>
+    <string name="grades_tab_main">NOTAS</string>
+
+    <!-- OPÇÕES AO VISUALIZAR TODAS AS AULAS -->
+    <string name="show_all_classes_option">TODAS</string>
+    <string name="show_today_classes_option">HOJE</string>
+    <string name="show_next_classes_option">PRÓXIMAS</string>
+
+</resources>

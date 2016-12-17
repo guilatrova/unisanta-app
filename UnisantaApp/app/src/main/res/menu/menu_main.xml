@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="si.unisanta.tcc.unisantaapp.application.MainActivity">
+
+    <group>
+
+        <item
+            android:id="@+id/menu_item_courseware"
+            android:title="@string/courseware"
+        />
+
+    </group>
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/sync"
+            android:title="@string/sync"
+            android:orderInCategory="1"
+        />
+
+        <item
+            android:id="@+id/share_app"
+            android:title="@string/share"
+            android:orderInCategory="2"
+        />
+
+        <item
+            android:id="@+id/facebook"
+            android:title="@string/page_facebook"
+            android:orderInCategory="3"
+        />
+
+        <item
+            android:id="@+id/about_app"
+            android:title="@string/about_app_menu_option"
+            android:orderInCategory="4"
+        />
+
+        <item
+            android:id="@+id/delete_all"
+            android:title="@string/clear_student_data_option"
+            android:orderInCategory="100"
+        />
+
+    </group>
+</menu>

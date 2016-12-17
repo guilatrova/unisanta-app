@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_toolbar_tabs">
+        <item>@string/classes_tab_main</item>
+        <item>@string/tests_tab_main</item>
+        <item>@string/grades_tab_main</item>
+    </string-array>
+</resources>

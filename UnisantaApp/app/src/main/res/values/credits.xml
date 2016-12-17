@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_app_menu_option">Sobre</string>
+
+    <string name="about_description">
+        <![CDATA[
+        <p>Versão: <i>%1$s.</i><br/>
+
+        Aplicativo em <b>fase de <u>testes</u></b>.</p>
+
+        <p>Trabalho de conclusão para o curso de <b>Sistemas de Informação</b>.</p>
+        ]]>
+    </string>
+
+    <string name="acknowledgments">
+        <![CDATA[Agradecemos primeiramente a <b>Deus</b>, o mais importante, sem o qual <u>nunca</u> teríamos conseguido criar esse aplicativo, tampouco tido a ideia para tal.<br/>
+        Queremos agradecer também ao nosso orientador e professor <b>Mauricio Neves Asenjo</b>, que tem nos dado grande apoio ao longo destes 4 anos de curso,
+        também ao professor <b>Claudio Souza Nunes</b>, responsável pelo portal da faculdade que nos deu apoio tanto em conhecimento técnico, quanto na criação do aplicativo.
+        Agradecemos ainda a um grande amigo, <b>Eston Almança dos Santos</b>, que ajudou em muitas dúvidas e em boa parte do gerenciamento do projeto.
+        ]]>
+    </string>
+
+    <string name="team">
+        <![CDATA[
+            <p>1. <a href="https://br.linkedin.com/in/andré-rodrigues-21111248">André Rodrigues Souza</a></p>
+            <p>2. <a href="https://br.linkedin.com/in/guilhermelatrova">Guilherme Magalhães Latrova</a></p>
+            <p>3. <a href="https://br.linkedin.com/in/thais-cabral-2b944ab0">Thais Cabral Siqueira Latrova</a></p>
+        ]]>
+    </string>
+
+</resources>

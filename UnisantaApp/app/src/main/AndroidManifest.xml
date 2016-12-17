@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="si.unisanta.tcc.unisantaapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".application.UnisantaApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="unisanta_app.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="10" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="si.unisanta.tcc.unisantaapp.domain.entities" />
+
+        <activity
+            android:name=".application.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Red" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".application.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".application.courseware.SubjectListActivity"
+            android:label="@string/courseware" >
+        </activity>
+        <activity
+            android:name=".application.courseware.CoursewareListActivity"
+            android:label="@string/courseware" >
+        </activity>
+        <activity
+            android:name=".application.config.EditProfileActivity"
+            android:label="@string/edit_profile_label" >
+        </activity>
+
+        <!--
+        Widget indisponível
+        <receiver android:name=".application.widget.ClassScheduleWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/class_schedule_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".application.widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        -->
+        <activity
+            android:name=".application.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

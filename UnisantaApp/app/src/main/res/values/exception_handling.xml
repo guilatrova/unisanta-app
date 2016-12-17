@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ERROS COMUNS AO SINCRONIZAR -->
+    <string name="error_title_dialog">Erro</string>
+    <string name="invalid_login_message">Login incorreto.</string>
+    <string name="user_changed_password">Não foi possível completar a operação, pois suas credenciais estão desatualizadas.</string>
+    <string name="general_sync_error">"Erro: %1$s."</string>
+    <string name="no_connection_message">Sem conexão com a internet.</string>
+    <string name="bad_connection_message">A sua conexão com a internet está fraca. Tente novamente mais tarde.</string>
+    <string name="connection_down_message">A sua conexão caiu. Verifique sua conexão com a internet e tente novamente.</string>
+    <string name="unavailable_data_message">Dados da página %1$s indisponível: %2$s.</string>
+    <string name="page_request_fail_message">Não foi possível obter a página localizada em: %1$s.</string>
+    <string name="missing_tag_message">Tag não encontrada: %1$s \nem: %2$s. \nAvise o desenvolvedor do aplicativo.</string>
+    <string name="no_classes_to_sync">Não há nenhuma aula para o semestre corrente.</string>
+    <string name="missing_data">Não foi possível atualizar %1$s por que faltou %2$s.
+        Atualize o que está faltando e tente novamente."</string>
+    <string name="cant_open_file">Não foi encontrado nenhum aplicação para abrir este tipo de arquivo (%1$s).</string>
+    <string name="cant_create_folder">Não foi possível criar o local(%1$s) para salvar o arquivo.</string>
+</resources>

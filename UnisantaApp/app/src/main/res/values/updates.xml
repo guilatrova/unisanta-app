@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="v3">
+        • Suporte a data das provas
+      \n• Opção de compartilhar suas aulas e link para download do aplicativo
+      \n• Opção para atualizar na própria tela de consulta (aulas, provas, notas e material didático)
+      \n• Corrigido bug que causava o fechamento do aplicativo
+      \n• Corrigido bug que não permitia de alguns celulares efetuarem download do material didático
+      \n• Verificação para abrir uma material didático previamente baixado
+    </string>
+
+    <string name="v3.1">
+        • Corrigido alguns bugs no login
+    </string>
+
+    <string name="v3.2">
+        • Corrigido bug na atualização do material didático
+    </string>
+
+    <string name="v3.3">
+        • Corrigido bug que bloqueava o material didático
+    </string>
+
+    <string name="v3.4">
+        • Corrigido bug na atualização de provas
+    </string>
+
+    <string name="v3.5">
+        • Corrigido bug que travava o aplicativo ao iniciar
+    </string>
+
+    <string name="v4.0">
+        • Corrigido bug que não permitia dispositivos com Android 6.0+ (em maioria, Motorola)
+        fazer download do material didático
+      \n• Possibilitado cancelamento de download do material didático
+      \n• Diversas melhorias
+    </string>
+
+</resources>
