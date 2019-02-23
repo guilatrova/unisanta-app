@@ -52,5 +52,5 @@ Também pedimos que não alterem os nossos créditos, isto é, não tire nossos 
 Podem colocar o nome de vocês e alguma consideração que desejarem, mas por favor, mantenha os agradecimentos, pois as pessoas que agradecemos
 foram fundamentais para a concretização da nossa ideia :)   
 
-## Licensa
+## Licença
 Nosso app está sob a licensa [GNU GPL 3](LICENSE)
